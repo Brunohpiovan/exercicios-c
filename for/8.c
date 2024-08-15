@@ -2,13 +2,14 @@
 
 int main(int argc, char** argv)
 {
-	int N;
+	
+	int x,y;
 	
 	printf("Informe um numero menor que 10: ");
-	scanf("%d",&N);
+	scanf("%d",&y);
 	
-	for(N; N<=10 ; N++){
-		printf("%d ",N);
+	for(x=y;x<=10;x++){
+		printf("%d ",x);
 	}
 	return 0;
 }

@@ -4,14 +4,12 @@
 int main(int argc, char** argv)
 {
 	
-	int I,MAX;
+	int x,y;
 	
-	printf("informe um numero positivo: ");
-	scanf("%d",&MAX);
-	
-	for(I=1 ; I<=MAX ; I++){
-		printf("%d ",I);
+	printf("Informe um valor positivo maior que 0: ");
+	scanf("%d",&y);
+	for(x=1;x<=y;x++){
+		printf("%d ",x);
 	}
-	
 	return 0;
 }

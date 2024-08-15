@@ -3,12 +3,10 @@
 
 int main(int argc, char** argv)
 {
+	int x;
 	
-	int I;
-
-	for(I=5; I<=15 ; I++){
-		printf("%d ",I);
+	for(x=5;x<=15;x++){
+		printf("%d ",x);
 	}
-	
 	return 0;
 }

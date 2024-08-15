@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 
+
 int main(int argc, char** argv)
 {
 	
-	int VI,VF;
+	int x,y,z;
 	
-	printf("Informe um valor inicial: ");
-	scanf("%d",&VI);
-	printf("Informe um valor final: ");
-	scanf("%d",&VF);
+	printf("Informe um numero inicial: ");
+	scanf("%d",&y);
+	printf("Informe um numero final: ");
+	scanf("%d",&z);
 	
-	for(VI; VI<=VF ; VI++){
-		printf("%d ",VI);
+	for(x=y;x<=z;x++){
+		printf("%d ",x);
 	}
-	
 	
 	return 0;
 }

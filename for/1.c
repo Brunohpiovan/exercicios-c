@@ -1,13 +1,12 @@
 #include <stdio.h>
 
-
 int main(int argc, char** argv)
 {
 	
-	int I;
+	int x;
 	
-	for(I=1; I<=10 ; I++){
-		printf("%d ",I);
+	for(x=1;x<=10;x++){
+		printf("%d ",x);
 	}
 	
 	return 0;

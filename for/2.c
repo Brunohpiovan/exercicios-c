@@ -1,13 +1,11 @@
 #include <stdio.h>
 
-
 int main(int argc, char** argv)
 {
+	int x;
 	
-	int I;
-	
-	for(I=10;I>=1;I--){
-		printf("%d ",I);
+	for(x=10;x>=1;x--){
+		printf("%d ",x);
 	}
 	
 	
